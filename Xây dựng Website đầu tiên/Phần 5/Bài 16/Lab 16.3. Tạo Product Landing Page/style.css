@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+  }
+
+  #video {
+    width: 100%;
+    height: auto;
+  }
+
+  #form {
+    margin-top: 20px;
+  }
+
+  #submit {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    /* Media query styles */
+    #header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .nav-link {
+      margin-bottom: 10px;
+      display: block;
+    }
+  }
+
+  /* Flexbox usage */
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }

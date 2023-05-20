@@ -1,0 +1,14 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  /* CSS styles for screens with a maximum width of 600px */
+  #navbar {
+    background-color: #ccc;
+  }
+}

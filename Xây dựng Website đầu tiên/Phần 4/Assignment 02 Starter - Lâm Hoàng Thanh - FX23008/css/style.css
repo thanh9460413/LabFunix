@@ -1,0 +1,437 @@
+* {
+    margin: 0px;
+}
+html{
+  font-family: "Rubik" ,sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+#nav-bar {
+    text-align: center;
+}
+/* Phần tên và hình ảnh */
+#banner{
+    height: 40vh;
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(rgba(34,34,34,0.6),rgba(34,34,34,0.6)),url(../images/banner.jpg);
+    background-size: cover;
+}
+.banner1{
+    color:#fff;
+    font-weight: 700;
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    transform: translate(-50%,-50%);
+}
+.nva{
+    font-size: 36px;
+}
+.fsd{
+  font-size: 20px;
+
+  color: darkgray;
+}
+/* Thanh NavBar có chứa thông tin như thông tin,lý lịch , tên(nâng cao:hình ảnh), chứng chỉ, dự án */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 60px;
+    height: 60px;
+  }
+  .nav-link1{
+    width: 350px;
+  }
+  .nav-link a {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    border-left: 2px solid #f7f7f7;
+    border-right: 2px solid #f7f7f7;
+    padding: 8px 32px;
+  }
+  
+  .nav-link a i {
+    display: inline-block;
+    vertical-align: middle;
+    color: deepskyblue;
+    padding-right: 5px;
+  }
+  .nav-link a span {
+    display: block;
+    
+    line-height: 1;
+    padding-top: 4px;
+  }
+  .picture-container {
+    position: relative;
+    width: 215px; /* Kích thước container lớn hơn kích thước của .picture */
+    height: 215px;
+    border: 5px solid white; /* Viền màu trắng */
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .picture {
+    position: absolute;
+    background-image: url(../images/Ảnh\ cá\ nhân.jpg);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transform: translate(0, 0);
+}
+  /* Mục tiêu nghề nghiệp - Thông tin cá nhân */
+  .container2 {
+    display: grid;
+    grid-template-columns: 50% 1fr; /* Đặt tỷ lệ chiều rộng cột là 1:2 */
+    height: 50vh;
+  }
+  
+  #target {
+    background-color: floralwhite;
+    display: flex;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  #personal-info {
+    display: flex;
+    padding-left: 70px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+    font-size: 20px;
+  }
+  .section-title{
+    padding-bottom: 50px;
+    font-size: 45px;
+    font-weight: 100;
+  }
+  
+  .icon-link1{
+    display: flex;
+    color: deepskyblue;
+    
+  }
+  .icon-twitter{
+    cursor: pointer;
+  }
+  .icon-facebook{
+    cursor: pointer;
+  }
+  .icon-gplus{
+    cursor: pointer;
+  }
+  .icon-linkedin{
+    cursor: pointer;
+  }
+  .mt-40 {
+    display: block;
+    line-height: 1;
+    padding-top: 4px;
+  }
+  .mt-40 span{
+    font-weight: bold;
+  }
+  .info a{
+    padding-bottom: 20px;
+  }
+  /* Kinh nghiệm - Học vấn - Hoạt động - Sở thích - Ngôn ngữ - Kỹ năng*/
+  #job-info{
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+  }
+  .container3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột có chiều rộng bằng nhau */
+    grid-template-rows: repeat(2, 1fr); /* 2 dòng có chiều cao bằng nhau */
+    gap: 30px; /* Khoảng cách giữa các item */
+    width: 1200px;
+    justify-content: center;
+  }
+  .job-item{
+    width: 400px;
+    border: 3px solid #f7f7f7; 
+    height: 600px;
+    display: block;
+  }
+  .job{
+    display: flex;
+    max-width:400px;
+    max-height: 50px;
+    height: 50px;
+    width: 400px;
+    padding: 30px 30px 30px 30px;
+  }
+  .job h1{
+    width: 75%;
+    display: flex;
+    align-items:end;
+  }
+  .job i{
+    width: 200px;
+    height: 50px;
+    font-size: 50px; /* Đảm bảo icon điền vào toàn bộ không gian */
+    display: flex;
+    align-items: end;
+  }
+  .job1{
+    display: block;
+    padding: 30px 30px 30px 5px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #199cdb;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 25px;
+  }
+  li.congty1::before {
+    width: 10px;
+    height: 10px;
+  }
+  
+  li.clb::before {
+    width: 10px;
+    height: 10px;
+  }
+  li div {
+    padding-left: 15px;
+  }
+  .congty{
+    display: block;
+  }
+  .congty1{
+    display: block;
+    line-height: 1.5;
+  }
+  li div {
+    display: inline-block;
+    padding-left: 15px;
+
+  }
+  li a{
+    padding-left: 15px;
+  }
+  .ht{
+    border:1px solid #199cdb;
+    border-radius: 9px;
+    background-color: #199cdb;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .st {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .st1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+  }
+  
+  .ic {
+    border: 1px solid #199cdb;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #199cdb;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+  }
+  
+  .ic i {
+    padding-top: 10px;
+  }
+  .nn{
+    padding: 0px 30px 0px 25px;
+  }
+  .temp{
+    display: flex;
+    margin-top: 20px;
+  }
+  .thanhthao{
+    background: #199cdb;
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .thanhthao1{
+    background: darkgrey;
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  /* Chứng chỉ - Phần thưởng */
+  #certificate {
+    width: 100%;
+    height: 550px;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+.container4 {
+    width: 1200px;
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+}
+  .section-title1{
+    padding: 50px 0 50px 0;
+    font-weight: 100;
+    font-size: 18px;
+  }
+  .ccgt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  
+  .item-ccgt {
+    font-size: 15px;
+    border-bottom: 1px solid coral;
+    display: flex;
+  }
+  
+  .item-ccgt:nth-child(2) {
+    border-top: none;
+    border-bottom: 1px solid coral;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+  }
+  .item-ccgt:nth-child(3) {
+    border-top: none;
+    border-bottom: none;
+    padding-top: 20px;
+    grid-column: 1 / span 2;
+  }
+  .ttccgt{
+    display: block;
+  }
+  .ttccgt div{
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+  /* Dự án */
+  #project{
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+  }
+  .pro{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột có chiều rộng bằng nhau */
+    grid-template-rows: repeat(2, 1fr); /* 2 dòng có chiều cao bằng nhau */
+    gap: 30px; /* Khoảng cách giữa các item */
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
+  }
+  .pro-item{
+    width: 400px;
+    border: 3px solid #f7f7f7; 
+    height: 580px;
+    display: block;
+  }
+  .pro-title{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-left: 30px;
+    height: 60px;
+    border-bottom: 1px solid #f7f7f7;
+  }
+  .pro-year{
+    border:1px solid #199cdb;
+    border-radius: 15px;
+    margin: 10px 20px 10px 30px;
+    background-color: #199cdb;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .ic-funix{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  /* Footer */
+  #footer {
+    height: 100px;
+  }
+  
+  .container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .footer1 i{
+    padding: 5px 2.5px 5px 2.5px;
+    border-radius: 50%;
+    background-color: #199cdb;
+    color: #f7f7f7;
+    margin: 0 10px 0 20px;
+  }
+
+  

@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: sans-serif;
+    line-height: 1.4;
+    width: 1000px;
+    margin: 50px auto;
+
+
+}
+/* Header */
+.section-title{
+    /* in đậm chữ */
+    font-weight: bold;
+    /* viết hoa chữ */
+    text-transform: uppercase;
+    /* đường viền */
+    border-bottom: 2px solid black;
+}
+.section{
+    /* top right bottom left */
+    padding:40px 40px 0px 40px;
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+
+/* Thông tin cá nhân */
+.about{
+    display: flex;
+    padding:40px 40px 0px 40px;
+}
+.ngaysinh{
+    align-items: center;
+    display: flex;
+    padding-top:10px ;
+}
+.ngay{
+    font-weight: bold;
+}
+.date{
+    padding-left:60px;
+    font-weight: normal;
+}
+.gioitinh{
+    padding-left:71px;
+    font-weight: normal;
+}
+.dienthoai{
+    padding-left:60px;
+    font-weight: normal;
+}
+.email{
+    padding-left:94px;
+    font-weight: normal;
+}
+.diachi{
+    padding-left:85px;
+    font-weight: normal;
+}
+.web{
+    padding-left:76px;
+    font-weight: normal;
+}
+.ten{
+    font-size: 35px;
+    color: #0e2452;
+}
+.image{
+    padding-bottom: 100px;
+    width: 120px;
+    height: 120px;
+    padding-left: 450px;
+}
+/* --------------------------------------------------------------------------------------------------- */
+
+/* Học vấn & Kinh nghiệm làm việc */
+.hocvan2{
+    width: 200px;
+}
+.kinhnghiemlamviec{
+    padding-left: 92px;
+}
+/*------------------------------------------------------------------------------------------------------ */
+/* Hoạt động*/
+.hoatdong{
+    padding-left: 120px;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+/* Kỹ năng */
+.kynang{
+    /* canh văn bản ra giữa */
+    align-items: center;
+    display: flex;
+    /* đường viền */
+    border-bottom: 2px solid slategrey;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* Sở thích */
+ol {
+    /* không hiện dấu */
+    list-style-type: none;
+  }
+  li {
+    font-size: 15px;
+    position: relative;
+    margin: 0;
+    padding-left: 20px;
+  }
+  li:after {
+    content: '';
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' viewBox='0 1 32 32' focusable='false'><circle stroke='none' fill='%23c0' cx='16' cy='16' r='10'></circle></svg>");
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 8px;
+    width: 8px;
+  }
+  /* ------------------------------------------------------------------------------------------- */
+  /* Liên hệ */
+.more-info:link,.more-info:visited{
+    color: blue;
+}
+.more-info:hover,.more-info:active{
+    text-decoration: none;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+h3{
+    text-transform: uppercase;
+}
+/* Nâng cao Học vấn & Kinh nghiệm làm việc*/
+.thongtin{
+    padding-top: 10px;
+    font-weight: normal; 
+}
+.hocvan{
+    align-items: center;
+    display: flex;
+}
+.fu{
+    padding-left: 50px;
+}
+
+.hocvan3{
+    border-bottom: 2px solid slategrey;
+    display: flex;
+}
+.hocvan {
+    list-style-type: none;
+  }
+  
+  .hocvan1 {
+    padding-bottom: 1em;
+    padding-left: 20px;
+  }
+  
+  .hocvan1:before {
+    content: '';
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 6px;
+    width: 1px;
+  }
+  
+  .hocvan1:after {
+    content: '';
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' viewBox='0 1 32 32' focusable='false'><circle stroke='none' fill='%23c0' cx='16' cy='16' r='10'></circle></svg>");
+    position: absolute;
+    left: 0;
+    top: 2px;
+    height: 12px;
+    width: 12px;
+  }
+  /* ---------------------------------------------------------------------------------------------------------------- */
